@@ -262,19 +262,20 @@ admin/
 
 ## Current Status
 
-This is a fully functional full-stack application, currently running locally with all core features working end-to-end: authentication, doctor browsing, booking, payments, and admin management. Live deployment and the additional improvements below are the next steps.
+This is a fully functional full-stack application with core features working end-to-end: authentication, doctor browsing, booking, payments, doctor availability management, and admin management.
+
+The application is deployed and accessible online:
+
+* **Patient Application:** https://prescripto-frontend-psi-three.vercel.app/
+* **Admin / Doctor Panel:** https://prescripto-admin-two-gamma.vercel.app/
+* **Backend API:** https://prescripto-final-project.onrender.com
 
 ## Roadmap
 
-- [ ] Production deployment (Render/Railway for backend, Vercel for frontend & admin)
-- [ ] Automated testing (Jest + Supertest, React Testing Library)
-- [ ] Improved appointment scheduling and slot-conflict handling
-- [ ] Email/SMS appointment notifications
-- [ ] Server-side pagination and filtering
-- [ ] Rate limiting on authentication routes
-- [ ] Enhanced analytics dashboards
-- [ ] Production-grade logging and monitoring
-
-## License
-
-This project is developed as a portfolio and learning project.
+* [ ] Automated testing (Jest + Supertest, React Testing Library)
+* [ ] Improved appointment scheduling and slot-conflict handling
+* [ ] Email/SMS appointment notifications
+* [ ] Server-side pagination and filtering
+* [ ] Rate limiting on authentication routes
+* [ ] Enhanced analytics dashboards
+* [ ] Production-grade logging and monitoring
